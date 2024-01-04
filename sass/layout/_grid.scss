@@ -1,0 +1,33 @@
+.row {
+  display: grid;
+  justify-content: center;
+}
+
+.row-booking{
+  grid-template-columns: repeat(auto-fit, minmax(78%, min-content));
+}
+
+.row-1{
+  grid-template-columns: repeat(auto-fit, minmax(89%, min-content));
+  grid-column-gap: 5rem;
+}
+
+.row-2 {
+  grid-template-columns: repeat(auto-fit, minmax(50rem, min-content));
+  grid-column-gap: 5rem;
+
+  [class^="col-"] {
+  }
+}
+
+.row-4 {
+  align-items: center;
+  grid-column-gap: 6rem;
+
+  grid-template-columns: repeat(auto-fit, minmax(22.5rem, min-content));
+}
+
+.row-3 {
+  grid-template-columns: repeat(auto-fit, minmax(30rem, min-content));
+  grid-column-gap: 5rem;
+}

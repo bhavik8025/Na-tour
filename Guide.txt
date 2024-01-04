@@ -1,0 +1,24 @@
+[1] clip-path
+[2] background-clip
+[3] outline and outline-offset
+[4] linear-gradient
+[5] transform -> skewed(0deg)
+[6] animation fill mode in button file
+
+[7] Box-decoration-break {at card.scss}
+[8] background-blend-mode {at card.scss}
+
+[9] shape-outside {at story.scss}
+
+[10] linear-gradient more features {home.scss}
+
+[11] input::-webkit-input-placeholder {form.scss}
+[12] input:invalid
+[13] input:placeholder-shown
+[14] adjacent sibling selector (+,~) 
+
+[15] column-count {popup.scss}
+[16] column-gap
+[17] column-rule
+[18] hyphens
+[19] :target pseudo class - url changes
